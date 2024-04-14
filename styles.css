@@ -1,0 +1,89 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: #ffffff;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+main {
+    padding: 20px 10%;
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+}
+
+/* Section styling */
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    header, main {
+        padding: 20px 5%;
+    }
+}
+
+.button, .fact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #6200ea; /* Adjust the color to match your design */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover, .fact-button:hover {
+    background-color: #7a2be2; /* Slightly lighter purple for hover */
+}
+
+/* Ensuring the text alignment and no outline on focus for better accessibility */
+.fact-button {
+    text-align: center;
+    outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .button, .fact-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
