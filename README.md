@@ -25,3 +25,10 @@ git clone https://github.com/yourusername/cat-facts-WebApp.git
 ## Usage
 - Click the "Get Another Fact" button to load a new cat fact.
 - Visit the About page to learn more about the project.
+
+##Screenshots
+#Here is what the Cat Facts App looks like:
+![Cat Facts](https://github.com/shaafijahangir/cat-facts-WebApp/blob/main/RandomCatFact.png)
+
+#Here is what the About page looks like:
+![About Page](https://github.com/shaafijahangir/cat-facts-WebApp/blob/main/AboutCatFacts.png)
