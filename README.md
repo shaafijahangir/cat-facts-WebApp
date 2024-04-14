@@ -16,11 +16,11 @@ The Cat Facts App is a simple web application that fetches random facts about ca
 
 ## Setup and Installation
 1. Clone the repository:
-git clone https://github.com/yourusername/cat-facts-WebApp.git
+git clone https://github.com/<yourusername>/cat-facts-WebApp.git
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
-3. Open the `index.html` in your browser to view the app.
+4. Open the `index.html` in your browser to view the app.
 
 ## Usage
 - Click the "Get Another Fact" button to load a new cat fact.
